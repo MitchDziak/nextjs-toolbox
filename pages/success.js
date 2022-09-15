@@ -12,8 +12,8 @@ export default function Success() {
       </Head>
 
       <main>
-        <h1>Submission Received!</h1>
-        <p>Thank you for your feedback! Head back to the <Link href="/"><a>home page</a></Link>.</p>
+        <h1>YOU STUPID!</h1>
+        <p>you stupid, go <Link href="/"><a>home</a></Link>.</p>
       </main>
 
       <Footer />
