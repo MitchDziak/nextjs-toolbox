@@ -13,7 +13,7 @@ export default function FeedbackForm() {
         <input type="hidden" name="form-name" value="feedback" />
         <p className={styles.hidden}>
             <label>
-            Don’t fill this out if you’re human: <input name="bot-field" />
+            this field is for bots: <input name="bot-field" />
             </label>
         </p>
   
@@ -23,7 +23,7 @@ export default function FeedbackForm() {
         <label htmlFor="email">Email</label>
         <input id="email" className={styles['form-field']} type="email" name="email" required />
 
-        <label htmlFor="feedback">What is your feedback?</label>
+        <label htmlFor="feedback">whats 9 + 10</label>
         <textarea id="feedback" className={styles['form-field']} wrap="soft" name="feedback" required></textarea>
         <button className={styles.button} type="submit">Submit</button>
       </form>
